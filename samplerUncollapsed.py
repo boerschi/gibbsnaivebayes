@@ -84,7 +84,6 @@ def init(f):
         for w in l:
             incr(newDoc,wToId(w))
         documents.append(newDoc)
-    print K()
     labels = [random.randint(0,K()-1) for x in range(N())]
     gammaTheta = [gammat for x in range(V())]
     gammaPi = [gammap for x in range(K())]
